@@ -1,0 +1,39 @@
+.mycard {
+  width: 18rem !important;
+  align-items: center;
+  background-color: rgb(21, 20, 21);
+  padding: 10px;
+  border-radius: 25px;
+}
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.card-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  margin: auto;
+  color: rgb(174, 173, 173);
+}
+.card-body {
+  padding: 10px;
+  font-size: 12px;
+}
+.card-text {
+  text-align: center;
+  color: white;
+}
+.card-footer {
+  text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .mycard {
+    width: 18rem !important;
+    align-items: center;
+  }
+  .card img {
+    width: 16rem;
+  }
+}
